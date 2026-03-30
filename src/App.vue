@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-shell">
     <Navbar />
     <Hero />
     <About />

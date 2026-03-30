@@ -1,10 +1,10 @@
 <template>
   <header class="navbar">
     <div class="container nav-content">
-      <h1 class="logo">TuNombre</h1>
+      <a href="#" class="logo">MiPortafolio</a>
 
       <nav>
-        <a href="#about">Sobre mí</a>
+        <a href="#about">Sobre mi</a>
         <a href="#projects">Proyectos</a>
         <a href="#contact">Contacto</a>
       </nav>
