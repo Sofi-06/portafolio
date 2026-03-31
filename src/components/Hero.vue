@@ -1,58 +1,37 @@
 <template>
   <section class="hero-shell">
+    <div class="hero-bubbles" aria-hidden="true">
+      <span class="hero-bubble bubble-one"></span>
+      <span class="hero-bubble bubble-two"></span>
+      <span class="hero-bubble bubble-three"></span>
+      <span class="hero-bubble bubble-four"></span>
+      <span class="hero-bubble bubble-five"></span>
+      <span class="hero-bubble bubble-six"></span>
+      <span class="hero-bubble bubble-seven"></span>
+      <span class="hero-bubble bubble-eight"></span>
+      <span class="hero-bubble bubble-nine"></span>
+      <span class="hero-bubble bubble-ten"></span>
+      <span class="hero-bubble bubble-eleven"></span>
+      <span class="hero-bubble bubble-twelve"></span>
+      <span class="hero-bubble bubble-thirteen"></span>
+      <span class="hero-bubble bubble-fourteen"></span>
+      <span class="hero-bubble bubble-fifteen"></span>
+    </div>
     <div class="container">
       <div class="hero-card">
         <div class="hero-copy">
-          <p class="eyebrow">Portafolio creativo</p>
-          <h1>
-            Diseno experiencias web con una estetica suave, moderna y muy
-            cuidada.
+          <p class="eyebrow">Portafolio de proyectos</p>
+          <h1 class="hero-welcome" aria-label="Bienvenido">
+            <span class="hero-word word-bien">Bien</span>
+            <span class="hero-word word-veni">veni</span>
+            <span class="hero-word word-do">do</span>
           </h1>
-          <p class="hero-description">
-            Soy estudiante y desarrolladora en formacion. Me enfoco en crear
-            interfaces agradables, funcionales y con una identidad visual que
-            haga memorable cada proyecto.
+          <p class="hero-subtitle">
+            Aqui muestro los proyectos donde combino diseno, codigo y
+            aprendizaje constante.
           </p>
-
-          <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">Ver proyectos</a>
-            <a href="#contact" class="btn btn-secondary">Hablemos</a>
-          </div>
-
-          <div class="hero-metrics">
-            <article>
-              <strong>3+</strong>
-              <span>Proyectos visuales</span>
-            </article>
-            <article>
-              <strong>6</strong>
-              <span>Tecnologias base</span>
-            </article>
-            <article>
-              <strong>100%</strong>
-              <span>Enfoque responsivo</span>
-            </article>
-          </div>
-        </div>
-
-        <div class="hero-visual">
-          <div class="hero-photo-frame">
-            <div class="hero-photo-blob"></div>
-            <img :src="profileImage" alt="Foto de perfil" />
-            <span class="hero-orbit orbit-one"></span>
-            <span class="hero-orbit orbit-two"></span>
-          </div>
-
-          <div class="hero-floating-card">
-            <p>Diseno UI</p>
-            <strong>Landing pages, portafolios y experiencias web claras.</strong>
-          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script setup>
-import profileImage from '../assets/foto-perfil.png'
-</script>
